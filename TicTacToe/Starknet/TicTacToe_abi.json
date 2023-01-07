@@ -1,0 +1,85 @@
+[
+    {
+        "inputs": [],
+        "name": "view_board",
+        "outputs": [
+            {
+                "name": "b0",
+                "type": "felt"
+            },
+            {
+                "name": "b1",
+                "type": "felt"
+            },
+            {
+                "name": "b2",
+                "type": "felt"
+            },
+            {
+                "name": "b3",
+                "type": "felt"
+            },
+            {
+                "name": "b4",
+                "type": "felt"
+            },
+            {
+                "name": "b5",
+                "type": "felt"
+            },
+            {
+                "name": "b6",
+                "type": "felt"
+            },
+            {
+                "name": "b7",
+                "type": "felt"
+            },
+            {
+                "name": "b8",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "get_game_state",
+        "outputs": [
+            {
+                "name": "value",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "start_game",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "join",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "player_num",
+                "type": "felt"
+            },
+            {
+                "name": "move_index",
+                "type": "felt"
+            }
+        ],
+        "name": "user_move",
+        "outputs": [],
+        "type": "function"
+    }
+]
